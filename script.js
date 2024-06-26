@@ -1,12 +1,12 @@
 // Firebaseの設定
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCS2wtY9t-0RCzdQ1aRgeLY5gIw9cXIQeQ",
+  authDomain: "amakawachat.firebaseapp.com",
+  projectId: "amakawachat",
+  storageBucket: "amakawachat.appspot.com",
+  messagingSenderId: "312751800216",
+  appId: "1:312751800216:web:5b7541d3aeb08374aab5ed",
+  measurementId: "G-C5P80QDS1E"
 };
 
 firebase.initializeApp(firebaseConfig);
