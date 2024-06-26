@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+  text-align: center;
+}
+
+#login h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#login input {
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#login button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#login a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-messages {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.my-message {
+  background-color: #cfc;
+}
+
+.username {
+  font-weight: bold;
+}
+
+#chat-input {
+  display: flex;
+  align-items: center;
+}
+
+#chat-message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#chat-send-button,
+#logout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
