@@ -66,5 +66,5 @@ if (user) {
   });
 } else {
   // ログインしていない場合は、ログイン画面へ遷移
-  window.location.href = 'login.html';
+  window.location.href = 'index.html';
 }
